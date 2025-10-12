@@ -6,7 +6,7 @@ from fastapi import APIRouter, UploadFile, File, Depends, HTTPException, Form
 from fastapi.responses import StreamingResponse
 from app.services.rag_service import get_rag_service, RAGService
 from app.llm.rag_deps import get_rag_llm_client
-from app.llm.rag_client import RAGLlmClient
+from app.llm.rag_crm import RAGLlmClient
 from app.schemas.rag import (
     DocumentIndexRequest,
     DocumentSearchRequest,

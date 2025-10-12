@@ -1,6 +1,6 @@
 """Dependencies for RAG-enhanced LLM client."""
 from __future__ import annotations
-from app.llm.rag_client import RAGLlmClient
+from app.llm.rag_crm import RAGLlmClient
 from app.llm.deps import get_llm_client
 
 
